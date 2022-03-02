@@ -1,0 +1,104 @@
+DESIGN c3_t2_bullet_move
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c3_t2_bullet_move
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c3_t2_bullet_move
+VIEW symbol.sb
+GRAPHIC 154,0 14 0 
+DESIGN c3_t2_bullet_move
+VIEW symbol.sb
+GRAPHIC 119,0 15 0 
+DESIGN c3_t2_bullet_move
+VIEW symbol.sb
+GRAPHIC 789,0 16 0 
+DESIGN c3_t2_bullet_move
+VIEW symbol.sb
+GRAPHIC 124,0 17 0 
+DESIGN c3_t2_bullet_move
+VIEW symbol.sb
+GRAPHIC 1,0 20 0 
+DESIGN c3_t2_bullet_move
+VIEW symbol.sb
+GRAPHIC 1,0 21 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+NO_GRAPHIC 24
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 89,0 33 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+NO_GRAPHIC 36
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 0,0 39 2 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 226,0 44 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 253,0 45 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 523,0 46 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 855,0 47 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+NO_GRAPHIC 48
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+NO_GRAPHIC 49
+LIBRARY alien_game_lib
+DESIGN c2_t4_right_shifter
+VIEW struct
+GRAPHIC 1209,0 51 0 
+DESIGN c2_t4_right_shifter
+VIEW symbol.sb
+GRAPHIC 112,0 53 0 
+DESIGN c2_t4_right_shifter
+VIEW symbol.sb
+GRAPHIC 117,0 54 0 
+LIBRARY alien_game_lib
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+NO_GRAPHIC 57
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 1209,0 60 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+NO_GRAPHIC 63
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 428,0 65 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 243,0 68 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 897,0 71 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 195,0 74 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 474,0 84 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+NO_GRAPHIC 88
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 1209,0 90 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 29,0 92 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+GRAPHIC 255,0 93 0 
+DESIGN c3_t2_bullet_move
+VIEW struct.bd
+NO_GRAPHIC 96

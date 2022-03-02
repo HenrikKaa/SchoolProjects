@@ -1,0 +1,278 @@
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 130,0 14 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 170,0 15 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 160,0 16 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 135,0 17 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 165,0 18 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 140,0 19 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 150,0 20 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 145,0 21 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 155,0 22 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 180,0 23 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 175,0 24 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 1,0 27 0 
+DESIGN c7_t4_register_bank
+VIEW symbol.sb
+GRAPHIC 1,0 28 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+NO_GRAPHIC 31
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 217,0 40 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+NO_GRAPHIC 43
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 0,0 46 2 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1018,0 51 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1024,0 52 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1030,0 53 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1036,0 54 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1206,0 55 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1212,0 56 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1222,0 57 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1228,0 58 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1582,0 59 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1566,0 60 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1572,0 61 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 646,0 62 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 652,0 63 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+NO_GRAPHIC 64
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+NO_GRAPHIC 65
+LIBRARY alien_game_lib
+DESIGN c7_t4_register_columns
+VIEW struct
+GRAPHIC 537,0 67 0 
+DESIGN c7_t4_register_columns
+VIEW symbol.sb
+GRAPHIC 124,0 69 0 
+DESIGN c7_t4_register_columns
+VIEW symbol.sb
+GRAPHIC 129,0 70 0 
+DESIGN c7_t4_register_columns
+VIEW symbol.sb
+GRAPHIC 134,0 71 0 
+DESIGN c7_t4_register_columns
+VIEW symbol.sb
+GRAPHIC 144,0 72 0 
+DESIGN c7_t4_register_columns
+VIEW symbol.sb
+GRAPHIC 149,0 73 0 
+DESIGN c7_t4_register_columns
+VIEW symbol.sb
+GRAPHIC 525,0 74 0 
+DESIGN c7_t4_register_columns
+VIEW symbol.sb
+GRAPHIC 396,0 75 0 
+DESIGN c7_t4_register_columns
+VIEW symbol.sb
+GRAPHIC 139,0 76 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1556,0 79 0 
+DESIGN c7_t4_register_controller
+VIEW symbol.sb
+GRAPHIC 122,0 81 0 
+DESIGN c7_t4_register_controller
+VIEW symbol.sb
+GRAPHIC 132,0 82 0 
+DESIGN c7_t4_register_controller
+VIEW symbol.sb
+GRAPHIC 127,0 83 0 
+DESIGN c7_t4_register_controller
+VIEW symbol.sb
+GRAPHIC 137,0 84 0 
+DESIGN c7_t4_register_controller
+VIEW symbol.sb
+GRAPHIC 147,0 85 0 
+DESIGN c7_t4_register_controller
+VIEW symbol.sb
+GRAPHIC 152,0 86 0 
+DESIGN c7_t4_register_controller
+VIEW symbol.sb
+GRAPHIC 142,0 87 0 
+LIBRARY alien_game_lib
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+NO_GRAPHIC 90
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 537,0 93 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1556,0 94 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+NO_GRAPHIC 97
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1177,0 99 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1187,0 102 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 627,0 105 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 776,0 115 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 857,0 125 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 886,0 135 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 937,0 145 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1088,0 155 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1109,0 165 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+NO_GRAPHIC 175
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 537,0 177 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 688,0 179 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1574,0 180 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 732,0 181 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 696,0 182 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1230,0 183 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1026,0 184 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1020,0 185 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 654,0 186 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 547,0 188 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 664,0 190 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1568,0 191 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 724,0 192 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 672,0 193 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1224,0 194 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1038,0 195 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1032,0 196 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 648,0 197 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1556,0 199 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 15,0 201 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 29,0 202 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 71,0 203 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1584,0 204 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1568,0 205 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 1574,0 206 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+GRAPHIC 85,0 207 0 
+DESIGN c7_t4_register_bank
+VIEW struct.bd
+NO_GRAPHIC 210

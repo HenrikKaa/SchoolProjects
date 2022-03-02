@@ -1,0 +1,75 @@
+DESIGN right_shifter_overflow
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN right_shifter_overflow
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN right_shifter_overflow
+VIEW symbol.sb
+GRAPHIC 117,0 14 0 
+DESIGN right_shifter_overflow
+VIEW symbol.sb
+GRAPHIC 112,0 15 0 
+DESIGN right_shifter_overflow
+VIEW symbol.sb
+GRAPHIC 1,0 18 0 
+DESIGN right_shifter_overflow
+VIEW symbol.sb
+GRAPHIC 1,0 19 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+NO_GRAPHIC 22
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 41,0 31 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+NO_GRAPHIC 34
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 0,0 36 2 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 314,0 41 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 312,0 42 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 310,0 43 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 308,0 44 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 306,0 45 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 322,0 46 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 320,0 47 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 318,0 48 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+NO_GRAPHIC 49
+DESIGN right_shifter_overflow
+VIEW struct.bd
+NO_GRAPHIC 53
+DESIGN right_shifter_overflow
+VIEW struct.bd
+NO_GRAPHIC 54
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 197,0 56 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+GRAPHIC 115,0 59 0 
+DESIGN right_shifter_overflow
+VIEW struct.bd
+NO_GRAPHIC 75
+DESIGN right_shifter_overflow
+VIEW struct.bd
+NO_GRAPHIC 78

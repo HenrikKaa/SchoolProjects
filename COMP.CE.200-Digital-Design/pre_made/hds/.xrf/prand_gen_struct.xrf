@@ -1,0 +1,117 @@
+DESIGN prand_gen
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN prand_gen
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN prand_gen
+VIEW symbol.sb
+GRAPHIC 51,0 14 0 
+DESIGN prand_gen
+VIEW symbol.sb
+GRAPHIC 61,0 15 0 
+DESIGN prand_gen
+VIEW symbol.sb
+GRAPHIC 56,0 16 0 
+DESIGN prand_gen
+VIEW symbol.sb
+GRAPHIC 1,0 19 0 
+DESIGN prand_gen
+VIEW symbol.sb
+GRAPHIC 1,0 20 0 
+DESIGN prand_gen
+VIEW struct.bd
+NO_GRAPHIC 23
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 89,0 32 0 
+DESIGN prand_gen
+VIEW struct.bd
+NO_GRAPHIC 34
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 0,0 36 2 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 790,0 41 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 786,0 42 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 794,0 43 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 788,0 44 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 796,0 45 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 782,0 46 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 798,0 47 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 778,0 48 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 810,0 49 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 808,0 50 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 806,0 51 0 
+DESIGN prand_gen
+VIEW struct.bd
+NO_GRAPHIC 52
+DESIGN prand_gen
+VIEW struct.bd
+NO_GRAPHIC 77
+DESIGN prand_gen
+VIEW struct.bd
+NO_GRAPHIC 78
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 169,0 80 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 202,0 91 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 235,0 102 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 315,0 113 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 395,0 124 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 475,0 135 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 508,0 146 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 541,0 157 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 580,0 168 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 428,0 171 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 348,0 174 0 
+DESIGN prand_gen
+VIEW struct.bd
+GRAPHIC 268,0 177 0 
+DESIGN prand_gen
+VIEW struct.bd
+NO_GRAPHIC 180
+DESIGN prand_gen
+VIEW struct.bd
+NO_GRAPHIC 183

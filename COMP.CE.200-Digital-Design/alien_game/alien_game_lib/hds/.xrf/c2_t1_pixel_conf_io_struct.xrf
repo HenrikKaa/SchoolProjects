@@ -1,0 +1,89 @@
+DESIGN c2_t1_pixel_conf_io
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c2_t1_pixel_conf_io
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW symbol.sb
+GRAPHIC 116,0 14 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW symbol.sb
+GRAPHIC 131,0 15 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW symbol.sb
+GRAPHIC 121,0 16 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW symbol.sb
+GRAPHIC 126,0 17 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW symbol.sb
+GRAPHIC 1,0 20 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW symbol.sb
+GRAPHIC 1,0 21 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+NO_GRAPHIC 24
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+GRAPHIC 105,0 33 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+NO_GRAPHIC 36
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+GRAPHIC 0,0 39 2 
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+GRAPHIC 907,0 44 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+NO_GRAPHIC 45
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+NO_GRAPHIC 46
+LIBRARY alien_game_lib
+DESIGN c2_t1_pixel_configuration
+VIEW struct
+GRAPHIC 185,0 48 0 
+DESIGN c2_t1_pixel_configuration
+VIEW symbol.sb
+GRAPHIC 124,0 50 0 
+DESIGN c2_t1_pixel_configuration
+VIEW symbol.sb
+GRAPHIC 114,0 51 0 
+DESIGN c2_t1_pixel_configuration
+VIEW symbol.sb
+GRAPHIC 119,0 52 0 
+LIBRARY alien_game_lib
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+NO_GRAPHIC 55
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+GRAPHIC 185,0 58 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+NO_GRAPHIC 61
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+GRAPHIC 805,0 63 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+GRAPHIC 1017,0 66 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+NO_GRAPHIC 82
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+GRAPHIC 185,0 84 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+GRAPHIC 43,0 87 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+GRAPHIC 57,0 88 0 
+DESIGN c2_t1_pixel_conf_io
+VIEW struct.bd
+NO_GRAPHIC 91

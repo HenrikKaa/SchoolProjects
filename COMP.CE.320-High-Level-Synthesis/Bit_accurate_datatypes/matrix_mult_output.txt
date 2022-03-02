@@ -1,0 +1,51 @@
+WIDTH: 6
+RESULT_WIDTH: 19
+---Control test---
+Transpose: 0
+Test passed
+Transpose: 1
+Test passed
+Transpose: 2
+Test passed
+Transpose: 3
+Test passed
+
+---Random test---
+Transpose: 0
+Test passed
+Transpose: 1
+Test passed
+Transpose: 2
+Test passed
+Transpose: 3
+Test passed
+
+---Identity test---
+Transpose: 0
+Test passed
+Transpose: 1
+Test passed
+Transpose: 2
+Test passed
+Transpose: 3
+Test passed
+
+---Min value test---
+Transpose: 0
+Test passed
+Transpose: 1
+Test passed
+Transpose: 2
+Test passed
+Transpose: 3
+Test passed
+
+---Max value test---
+Transpose: 0
+Test passed
+Transpose: 1
+Test passed
+Transpose: 2
+Test passed
+Transpose: 3
+Test passed

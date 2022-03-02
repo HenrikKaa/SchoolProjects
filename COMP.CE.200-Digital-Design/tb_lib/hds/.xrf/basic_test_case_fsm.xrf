@@ -1,0 +1,397 @@
+DESIGN basic_test_case
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN basic_test_case
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN basic_test_case
+VIEW symbol.sb
+GRAPHIC 637,0 14 0 
+DESIGN basic_test_case
+VIEW symbol.sb
+GRAPHIC 657,0 15 0 
+DESIGN basic_test_case
+VIEW symbol.sb
+GRAPHIC 632,0 16 0 
+DESIGN basic_test_case
+VIEW symbol.sb
+GRAPHIC 722,0 17 0 
+DESIGN basic_test_case
+VIEW symbol.sb
+GRAPHIC 642,0 18 0 
+DESIGN basic_test_case
+VIEW symbol.sb
+GRAPHIC 647,0 19 0 
+DESIGN basic_test_case
+VIEW symbol.sb
+GRAPHIC 652,0 20 0 
+DESIGN basic_test_case
+VIEW symbol.sb
+GRAPHIC 1,0 23 0 
+DESIGN basic_test_case
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 33,0 36 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 38
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 32,0 42 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 44
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 2,0 61 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 62
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 187,0 65 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 496,0 66 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 67
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 2,0 78 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 79
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 2,0 82 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 83
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 569,0 84 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 87
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 62,0 95 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 96
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 2,0 100 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 170,0 101 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 185,0 102 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 238,0 103 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 253,0 104 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 272,0 106 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 287,0 107 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 289,0 111 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 304,0 112 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 457,0 115 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 472,0 116 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 496,0 119 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 518,0 120 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 519,0 121 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 123
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 633,0 124 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 648,0 125 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 127
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 2,0 129 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 130
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 2,0 131 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 132
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 2,0 134 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 135
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 187,0 145 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 496,0 146 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 2,0 147 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 170,0 148 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 187,0 150 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 321,0 151 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 170,0 152 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 153
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 187,0 154 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 155
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 238,0 156 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 311,0 157 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 187,0 158 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 655,0 160 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 633,0 161 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 391,0 162 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 272,0 163 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 164
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 289,0 165 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 166
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 255,0 167 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 496,0 168 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 272,0 170 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 238,0 171 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 289,0 172 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 238,0 173 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 457,0 174 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 238,0 175 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 496,0 176 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 518,0 177 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 238,0 178 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 179
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 496,0 180 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 181
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 633,0 182 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 479,0 183 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 457,0 186 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 187
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 238,0 188 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 189
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 95,0 190 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 192
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 2,0 193 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 194
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 2,0 196 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 201
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 2,0 204 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 224
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+GRAPHIC 32,0 225 0
+LIBRARY tb_lib
+DESIGN basic_test_case
+VIEW fsm.sm
+NO_GRAPHIC 231

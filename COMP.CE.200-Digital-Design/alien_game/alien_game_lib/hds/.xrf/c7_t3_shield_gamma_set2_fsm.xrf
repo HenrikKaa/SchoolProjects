@@ -1,0 +1,377 @@
+DESIGN c7_t3_shield_gamma_set2
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c7_t3_shield_gamma_set2
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c7_t3_shield_gamma_set2
+VIEW symbol.sb
+GRAPHIC 112,0 14 0 
+DESIGN c7_t3_shield_gamma_set2
+VIEW symbol.sb
+GRAPHIC 162,0 15 0 
+DESIGN c7_t3_shield_gamma_set2
+VIEW symbol.sb
+GRAPHIC 167,0 16 0 
+DESIGN c7_t3_shield_gamma_set2
+VIEW symbol.sb
+GRAPHIC 182,0 17 0 
+DESIGN c7_t3_shield_gamma_set2
+VIEW symbol.sb
+GRAPHIC 157,0 18 0 
+DESIGN c7_t3_shield_gamma_set2
+VIEW symbol.sb
+GRAPHIC 172,0 19 0 
+DESIGN c7_t3_shield_gamma_set2
+VIEW symbol.sb
+GRAPHIC 177,0 20 0 
+DESIGN c7_t3_shield_gamma_set2
+VIEW symbol.sb
+GRAPHIC 1,0 23 0 
+DESIGN c7_t3_shield_gamma_set2
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 31,0 36 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 39
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 30,0 43 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 46
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 2,0 60 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 61
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 302,0 64 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 336,0 65 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 66
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 2,0 76 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 77
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 2,0 80 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 81
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 243,0 82 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 85
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 272,0 93 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 94
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 2,0 98 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 302,0 99 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 358,0 100 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 359,0 101 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 405,0 102 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 406,0 103 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 415,0 105 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 416,0 106 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 107
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 319,0 108 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 368,0 109 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 369,0 110 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 111
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 336,0 112 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 378,0 113 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 379,0 114 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 116
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 383,0 117 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 443,0 118 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 120
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 2,0 122 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 123
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 2,0 124 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 125
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 2,0 127 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 128
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 302,0 137 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 336,0 138 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 2,0 139 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 43,0 140 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 452,0 141 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 302,0 142 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 144
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 43,0 145 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 146
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 302,0 147 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 358,0 148 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 319,0 149 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 405,0 150 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 302,0 151 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 415,0 152 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 383,0 153 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 154
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 302,0 155 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 156
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 319,0 157 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 368,0 158 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 336,0 159 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 161
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 319,0 162 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 163
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 336,0 164 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 378,0 165 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 302,0 166 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 168
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 336,0 169 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 170
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 383,0 171 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 420,0 172 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 238,0 175 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 177
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 2,0 178 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 179
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 2,0 181 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 186
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 2,0 189 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 209
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+GRAPHIC 30,0 210 0
+LIBRARY alien_game_lib
+DESIGN c7_t3_shield_gamma_set2
+VIEW fsm.sm
+NO_GRAPHIC 215

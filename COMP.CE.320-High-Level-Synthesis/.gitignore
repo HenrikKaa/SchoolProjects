@@ -1,0 +1,8 @@
+**/Catapult
+**/Catapult.ccs
+**/catapult.log
+**/catapult.pinfo
+**/.toolkit.tcl
+**/design_checker_constraints.tcl
+**/design_checker_pre_build.tcl
+**/directives.tcl

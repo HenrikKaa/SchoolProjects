@@ -1,0 +1,119 @@
+DESIGN full_adder
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN full_adder
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN full_adder
+VIEW symbol.sb
+GRAPHIC 118,0 14 0 
+DESIGN full_adder
+VIEW symbol.sb
+GRAPHIC 123,0 15 0 
+DESIGN full_adder
+VIEW symbol.sb
+GRAPHIC 128,0 16 0 
+DESIGN full_adder
+VIEW symbol.sb
+GRAPHIC 138,0 17 0 
+DESIGN full_adder
+VIEW symbol.sb
+GRAPHIC 133,0 18 0 
+DESIGN full_adder
+VIEW symbol.sb
+GRAPHIC 1,0 21 0 
+DESIGN full_adder
+VIEW symbol.sb
+GRAPHIC 1,0 22 0 
+DESIGN full_adder
+VIEW struct.bd
+NO_GRAPHIC 25
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 121,0 34 0 
+DESIGN full_adder
+VIEW struct.bd
+NO_GRAPHIC 37
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 0,0 40 2 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 312,0 45 0 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 318,0 46 0 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 328,0 47 0 
+DESIGN full_adder
+VIEW struct.bd
+NO_GRAPHIC 48
+DESIGN full_adder
+VIEW struct.bd
+NO_GRAPHIC 49
+LIBRARY alien_game_lib
+DESIGN c1_t1_half_adder
+VIEW struct
+GRAPHIC 205,0 51 0 
+DESIGN c1_t1_half_adder
+VIEW symbol.sb
+GRAPHIC 116,0 53 0 
+DESIGN c1_t1_half_adder
+VIEW symbol.sb
+GRAPHIC 121,0 54 0 
+DESIGN c1_t1_half_adder
+VIEW symbol.sb
+GRAPHIC 126,0 55 0 
+DESIGN c1_t1_half_adder
+VIEW symbol.sb
+GRAPHIC 131,0 56 0 
+LIBRARY alien_game_lib
+DESIGN full_adder
+VIEW struct.bd
+NO_GRAPHIC 59
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 205,0 62 0 
+DESIGN full_adder
+VIEW struct.bd
+NO_GRAPHIC 65
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 303,0 67 0 
+DESIGN full_adder
+VIEW struct.bd
+NO_GRAPHIC 70
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 205,0 72 0 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 57,0 74 0 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 71,0 75 0 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 320,0 76 0 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 330,0 77 0 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 257,0 79 0 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 43,0 81 0 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 330,0 82 0 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 314,0 83 0 
+DESIGN full_adder
+VIEW struct.bd
+GRAPHIC 29,0 84 0 
+DESIGN full_adder
+VIEW struct.bd
+NO_GRAPHIC 87

@@ -1,0 +1,251 @@
+
+*** Running vivado
+    with args -log Hello_LED_led_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Hello_LED_led_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Hello_LED_led_0_0.tcl -notrace
+Command: synth_design -top Hello_LED_led_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13996 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 367.945 ; gain = 76.656
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Hello_LED_led_0_0' [p:/HLS/Hello_LED/Vivado/Hello_LED/Hello_LED.srcs/sources_1/bd/Hello_LED/ip/Hello_LED_led_0_0/synth/Hello_LED_led_0_0.vhd:67]
+INFO: [Synth 8-3491] module 'led' declared at 'P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:303' bound to instance 'U0' of component 'led' [p:/HLS/Hello_LED/Vivado/Hello_LED/Hello_LED.srcs/sources_1/bd/Hello_LED/ip/Hello_LED_led_0_0/synth/Hello_LED_led_0_0.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'led' [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:314]
+INFO: [Synth 8-3491] module 'led_core' declared at 'P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:209' bound to instance 'led_core_inst' of component 'led_core' [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:328]
+INFO: [Synth 8-638] synthesizing module 'led_core' [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:220]
+	Parameter rscid bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'ccs_in_v1' declared at 'P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:45' bound to instance 'input_rsci' of component 'ccs_in_v1' [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:235]
+INFO: [Synth 8-638] synthesizing module 'ccs_in_v1' [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:56]
+	Parameter rscid bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ccs_in_v1' (1#1) [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:56]
+	Parameter rscid bound to: 2 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'ccs_out_v1' declared at 'P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:107' bound to instance 'return_rsci' of component 'ccs_out_v1' [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:247]
+INFO: [Synth 8-638] synthesizing module 'ccs_out_v1' [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:118]
+	Parameter rscid bound to: 2 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ccs_out_v1' (2#1) [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:118]
+	Parameter valid bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'mgc_io_sync_v2' declared at 'P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:166' bound to instance 'input_rsc_triosy_obj' of component 'mgc_io_sync_v2' [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:259]
+INFO: [Synth 8-638] synthesizing module 'mgc_io_sync_v2' [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:176]
+	Parameter valid bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mgc_io_sync_v2' (3#1) [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:176]
+	Parameter valid bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'mgc_io_sync_v2' declared at 'P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:166' bound to instance 'return_rsc_triosy_obj' of component 'mgc_io_sync_v2' [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:267]
+INFO: [Synth 8-256] done synthesizing module 'led_core' (4#1) [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:220]
+INFO: [Synth 8-256] done synthesizing module 'led' (5#1) [P:/HLS/Hello_LED/Catapult/led.v1/concat_rtl.vhdl:314]
+INFO: [Synth 8-256] done synthesizing module 'Hello_LED_led_0_0' (6#1) [p:/HLS/Hello_LED/Vivado/Hello_LED/Hello_LED.srcs/sources_1/bd/Hello_LED/ip/Hello_LED_led_0_0/synth/Hello_LED_led_0_0.vhd:67]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 407.273 ; gain = 115.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 407.273 ; gain = 115.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 407.273 ; gain = 115.984
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 407.273 ; gain = 115.984
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U0/led_core_inst/input_rsc_triosy_obj' (mgc_io_sync_v2) to 'U0/led_core_inst/return_rsc_triosy_obj'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module led_core 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 520.949 ; gain = 229.660
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 520.949 ; gain = 229.660
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 530.996 ; gain = 239.707
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 530.996 ; gain = 239.707
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 530.996 ; gain = 239.707
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 530.996 ; gain = 239.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 530.996 ; gain = 239.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 530.996 ; gain = 239.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 530.996 ; gain = 239.707
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     1|
+|3     |FDRE |     2|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------------+---------+------+
+|      |Instance          |Module   |Cells |
++------+------------------+---------+------+
+|1     |top               |         |     4|
+|2     |  U0              |led      |     4|
+|3     |    led_core_inst |led_core |     4|
++------+------------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 530.996 ; gain = 239.707
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 530.996 ; gain = 239.707
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 530.996 ; gain = 239.707
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+25 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 617.848 ; gain = 326.559
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint 'P:/HLS/Hello_LED/Vivado/Hello_LED/Hello_LED.runs/Hello_LED_led_0_0_synth_1/Hello_LED_led_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1012.832 ; gain = 394.984
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'P:/HLS/Hello_LED/Vivado/Hello_LED/Hello_LED.runs/Hello_LED_led_0_0_synth_1/Hello_LED_led_0_0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1014.016 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 28 14:25:02 2022...

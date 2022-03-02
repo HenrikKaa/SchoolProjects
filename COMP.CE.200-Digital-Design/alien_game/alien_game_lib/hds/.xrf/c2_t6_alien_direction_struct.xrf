@@ -1,0 +1,75 @@
+DESIGN c2_t6_alien_direction
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c2_t6_alien_direction
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c2_t6_alien_direction
+VIEW symbol.sb
+GRAPHIC 112,0 14 0 
+DESIGN c2_t6_alien_direction
+VIEW symbol.sb
+GRAPHIC 767,0 15 0 
+DESIGN c2_t6_alien_direction
+VIEW symbol.sb
+GRAPHIC 1333,0 16 0 
+DESIGN c2_t6_alien_direction
+VIEW symbol.sb
+GRAPHIC 1234,0 17 0 
+DESIGN c2_t6_alien_direction
+VIEW symbol.sb
+GRAPHIC 300,0 18 0 
+DESIGN c2_t6_alien_direction
+VIEW symbol.sb
+GRAPHIC 1,0 21 0 
+DESIGN c2_t6_alien_direction
+VIEW symbol.sb
+GRAPHIC 1,0 22 0 
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+NO_GRAPHIC 25
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+GRAPHIC 73,0 34 0 
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+NO_GRAPHIC 37
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+GRAPHIC 0,0 39 2 
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+GRAPHIC 766,0 44 0 
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+GRAPHIC 760,0 45 0 
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+NO_GRAPHIC 46
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+GRAPHIC 465,0 48 0 
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+NO_GRAPHIC 53
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+NO_GRAPHIC 54
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+GRAPHIC 447,0 56 0 
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+GRAPHIC 747,0 67 0 
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+GRAPHIC 233,0 77 0 
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+NO_GRAPHIC 80
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+GRAPHIC 465,0 84 0 
+DESIGN c2_t6_alien_direction
+VIEW struct.bd
+NO_GRAPHIC 86

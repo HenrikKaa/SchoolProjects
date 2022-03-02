@@ -1,0 +1,131 @@
+DESIGN c2_t6_coordinate
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c2_t6_coordinate
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c2_t6_coordinate
+VIEW symbol.sb
+GRAPHIC 205,0 14 0 
+DESIGN c2_t6_coordinate
+VIEW symbol.sb
+GRAPHIC 137,0 15 0 
+DESIGN c2_t6_coordinate
+VIEW symbol.sb
+GRAPHIC 488,0 16 0 
+DESIGN c2_t6_coordinate
+VIEW symbol.sb
+GRAPHIC 147,0 17 0 
+DESIGN c2_t6_coordinate
+VIEW symbol.sb
+GRAPHIC 152,0 18 0 
+DESIGN c2_t6_coordinate
+VIEW symbol.sb
+GRAPHIC 1,0 21 0 
+DESIGN c2_t6_coordinate
+VIEW symbol.sb
+GRAPHIC 1,0 22 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+NO_GRAPHIC 25
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 153,0 34 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+NO_GRAPHIC 37
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 0,0 40 2 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 336,0 45 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 342,0 46 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 606,0 47 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+NO_GRAPHIC 48
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 620,0 50 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+NO_GRAPHIC 52
+LIBRARY alien_game_lib
+DESIGN c2_t2_left_shifter
+VIEW struct
+GRAPHIC 269,0 54 0 
+DESIGN c2_t2_left_shifter
+VIEW symbol.sb
+GRAPHIC 112,0 56 0 
+DESIGN c2_t2_left_shifter
+VIEW symbol.sb
+GRAPHIC 117,0 57 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 251,0 60 0 
+DESIGN c2_t4_right_shifter
+VIEW symbol.sb
+GRAPHIC 112,0 62 0 
+DESIGN c2_t4_right_shifter
+VIEW symbol.sb
+GRAPHIC 117,0 63 0 
+LIBRARY alien_game_lib
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+NO_GRAPHIC 66
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 269,0 69 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 251,0 70 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+NO_GRAPHIC 73
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 323,0 75 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 587,0 85 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+NO_GRAPHIC 95
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 269,0 97 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 279,0 99 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 344,0 100 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 531,0 102 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 523,0 104 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 608,0 105 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 251,0 107 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 43,0 109 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 338,0 110 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+GRAPHIC 620,0 114 0 
+DESIGN c2_t6_coordinate
+VIEW struct.bd
+NO_GRAPHIC 116

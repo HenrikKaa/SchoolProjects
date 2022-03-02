@@ -1,0 +1,116 @@
+DESIGN c3_t1_gun_move
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN c3_t1_gun_move
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN c3_t1_gun_move
+VIEW symbol.sb
+GRAPHIC 145,0 14 0 
+DESIGN c3_t1_gun_move
+VIEW symbol.sb
+GRAPHIC 120,0 15 0 
+DESIGN c3_t1_gun_move
+VIEW symbol.sb
+GRAPHIC 140,0 16 0 
+DESIGN c3_t1_gun_move
+VIEW symbol.sb
+GRAPHIC 1,0 19 0 
+DESIGN c3_t1_gun_move
+VIEW symbol.sb
+GRAPHIC 1,0 20 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+NO_GRAPHIC 23
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 137,0 32 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+NO_GRAPHIC 35
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 0,0 38 2 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 563,0 43 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 569,0 44 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 734,0 45 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 587,0 46 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+NO_GRAPHIC 47
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+NO_GRAPHIC 48
+LIBRARY alien_game_lib
+DESIGN left_shifter_overflow
+VIEW struct
+GRAPHIC 781,0 50 0 
+DESIGN left_shifter_overflow
+VIEW symbol.sb
+GRAPHIC 117,0 52 0 
+DESIGN left_shifter_overflow
+VIEW symbol.sb
+GRAPHIC 112,0 53 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 799,0 56 0 
+DESIGN right_shifter_overflow
+VIEW symbol.sb
+GRAPHIC 117,0 58 0 
+DESIGN right_shifter_overflow
+VIEW symbol.sb
+GRAPHIC 112,0 59 0 
+LIBRARY alien_game_lib
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+NO_GRAPHIC 62
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 781,0 65 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 799,0 66 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+NO_GRAPHIC 69
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 524,0 71 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 393,0 74 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 243,0 86 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+NO_GRAPHIC 89
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 781,0 91 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 349,0 93 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 571,0 94 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 799,0 96 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 85,0 98 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+GRAPHIC 565,0 99 0 
+DESIGN c3_t1_gun_move
+VIEW struct.bd
+NO_GRAPHIC 102

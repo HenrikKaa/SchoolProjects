@@ -1,0 +1,424 @@
+DESIGN write_sequencer_test
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 713,0 14 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 116,0 15 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 733,0 16 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 121,0 17 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 667,0 18 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 753,0 19 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 718,0 20 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 723,0 21 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 728,0 22 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 738,0 23 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 743,0 24 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 748,0 25 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 1,0 28 0 
+DESIGN write_sequencer_test
+VIEW symbol.sb
+GRAPHIC 1,0 29 0 
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 31,0 41 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 45
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 30,0 49 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 50
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 2,0 70 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 71
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 567,0 74 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 75
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 2,0 87 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 88
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 2,0 91 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 92
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 470,0 93 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 96
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 584,0 102 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 103
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 30,0 106 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 111
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 2,0 113 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 363,0 114 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 378,0 115 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 380,0 116 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 395,0 117 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 397,0 120 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 412,0 121 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 414,0 123 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 429,0 124 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 431,0 127 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 446,0 128 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 448,0 130 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 463,0 131 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 487,0 134 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 502,0 135 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 504,0 138 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 519,0 139 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 533,0 145 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 548,0 146 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 550,0 147 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 565,0 148 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 149
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 2,0 151 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 152
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 2,0 153 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 154
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 2,0 156 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 157
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 567,0 166 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 2,0 167 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 346,0 168 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 709,0 169 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 363,0 170 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 171
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 346,0 172 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 173
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 363,0 174 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 380,0 175 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 414,0 177 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 397,0 178 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 609,0 179 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 431,0 180 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 181
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 533,0 182 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 183
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 414,0 184 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 448,0 185 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 431,0 186 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 504,0 187 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 448,0 188 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 487,0 189 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 397,0 191 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 504,0 192 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 619,0 193 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 533,0 194 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 195
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 504,0 196 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 197
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 533,0 198 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 550,0 199 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 567,0 201 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 679,0 204 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 363,0 205 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 206
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 567,0 207 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 208
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 465,0 209 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 211
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 2,0 212 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 213
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 2,0 215 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 219
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 2,0 222 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 240
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+GRAPHIC 30,0 241 0
+LIBRARY alien_game_lib
+DESIGN write_sequencer_test
+VIEW fsm.sm
+NO_GRAPHIC 248
