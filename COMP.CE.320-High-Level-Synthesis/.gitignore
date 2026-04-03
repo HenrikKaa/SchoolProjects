@@ -1,4 +1,7 @@
 **/Catapult
+**/Catapult_1
+**/Catapult_2
+**/Catapult_3
 **/Catapult.ccs
 **/catapult.log
 **/catapult.pinfo
@@ -6,3 +9,4 @@
 **/design_checker_constraints.tcl
 **/design_checker_pre_build.tcl
 **/directives.tcl
+**/.vscode

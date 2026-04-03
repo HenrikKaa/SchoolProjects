@@ -28,8 +28,8 @@ typedef int result_t;
  */
 const int MIN_VALUE = -32;
 const int MAX_VALUE = 31;
-const int WIDTH = ac::nbits<MAX_VALUE>::val + 1;
-const int RESULT_WIDTH = 2*ac::nbits<MAX_VALUE>::val + 1 + N;
+const int WIDTH = ac::nbits<MIN_VALUE>::val + 1;
+const int RESULT_WIDTH = 2*ac::nbits<MIN_VALUE>::val + 1 + N;
 typedef ac_int<WIDTH, true> hls_data_t; 
 typedef ac_int<RESULT_WIDTH, true> hls_result_t;
 

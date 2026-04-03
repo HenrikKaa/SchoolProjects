@@ -1,3 +1,6 @@
+/// TODO: Add your name and student number here
+// Henrik Kaakkolammi H275961
+
 // TODO: Include some IO library to print into file
 #include <stdio.h>
 
@@ -22,17 +25,19 @@ There is an error when using transpose 1, it fails all the tests.
 Looking at the code, B[j][k] should be B[k][j].
 */
 
+// Template for ac_int types
 template < typename T >
-    void print_matrix(T matrix[N][N]) {
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                fprintf(file, "%4d ", matrix[i][j].to_int());
-            }
-            fprintf(file, "\n");
+void print_matrix(T matrix[N][N]) {
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++) {
+            fprintf(file, "%4d ", matrix[i][j].to_int());
         }
         fprintf(file, "\n");
     }
+    fprintf(file, "\n");
+}
 
+// For C++ integers
 void print_matrix(int matrix[N][N]) {
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
@@ -43,17 +48,34 @@ void print_matrix(int matrix[N][N]) {
     fprintf(file, "\n");
 }
 
-void compare_results(hls_result_t HLS[N][N], result_t CPP[N][N]) {
+// Compares the HLS result to golden reference
+// Prints the output utilising print_matrix()
+void compare_results(hls_result_t HLS[N][N], result_t CPP[N][N], int expect_difference=0) {
     int error = 0;
-
+    int once = 0;   // Used for printing negative test result
+    
     // Compare results
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
-            if (HLS[i][j] != CPP[i][j]) {
-                error = 1;
-                fprintf(file, "Difference in index [%d][%d]\n", i, j);
+            if(expect_difference){
+                // One error is enough to print
+                if (HLS[i][j] != CPP[i][j]) {
+                    if(once == 0){
+                        fprintf(file, "Difference in index [%d][%d]\n", i, j);
+                        once = 1;
+                    }
+                }
+            } else {
+                if (HLS[i][j] != CPP[i][j]) {
+                    error = 1;
+                    fprintf(file, "Difference in index [%d][%d]\n", i, j);
+                }
             }
         }
+    }
+    // If there was no differences
+    if(expect_difference && !once){
+        error = 1;
     }
 
     // Print matrices only if verbose output is wanted
@@ -68,7 +90,7 @@ void compare_results(hls_result_t HLS[N][N], result_t CPP[N][N]) {
         print_matrix(CPP);
     }
 
-    if (error) {
+    if (error && !expect_difference) {
         ret = 1;
     } else {
         fprintf(file, "Test passed\n");
@@ -78,6 +100,7 @@ void compare_results(hls_result_t HLS[N][N], result_t CPP[N][N]) {
     }
 }
 
+// Tests HLS against golden reference with all transposes
 void run_test(hls_data_t A[N][N], hls_data_t B[N][N], result_t C[N][N], hls_result_t C_hls[N][N]) {
     // Convert input arrays to ints for reference
     int A_CPP[N][N];
@@ -99,6 +122,7 @@ void run_test(hls_data_t A[N][N], hls_data_t B[N][N], result_t C[N][N], hls_resu
     }
 }
 
+// Included control test
 void test_control() {
     hls_data_t A[N][N];
     hls_data_t B[N][N];
@@ -122,6 +146,7 @@ void test_control() {
     run_test(A, B, C, C_hls);
 }
 
+// Tests using random values in the range
 void test_random() {
     hls_data_t A[N][N];
     hls_data_t B[N][N];
@@ -145,6 +170,7 @@ void test_random() {
     run_test(A, B, C, C_hls);
 }
 
+// Tests identity matrices as A and B input
 void test_identity() {
     hls_data_t A[N][N];
     hls_data_t B[N][N];
@@ -173,6 +199,7 @@ void test_identity() {
     run_test(A, B, C, C_hls);
 }
 
+// Fills A and B with the minimum value the ac_int can have
 void test_min() {
     hls_data_t A[N][N];
     hls_data_t B[N][N];
@@ -196,6 +223,7 @@ void test_min() {
     run_test(A, B, C, C_hls);
 }
 
+// Fills A and B with the maximum value the ac_int can have
 void test_max() {
     hls_data_t A[N][N];
     hls_data_t B[N][N];
@@ -217,6 +245,46 @@ void test_max() {
         print_matrix < hls_data_t > (B);
     }
     run_test(A, B, C, C_hls);
+}
+
+// Fills A and B with too big values for ac_int to handle
+// Negative test, this should fail
+void test_limit() {
+    hls_data_t A[N][N];
+    hls_data_t B[N][N];
+    int A_CPP[N][N];
+    int B_CPP[N][N];
+    result_t C[N][N];
+    hls_result_t C_hls[N][N];
+
+    // Using MAX_VALUE+1 hides the error in some cases, eg. -32 and 32 multiplied even times
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++) {
+            A[i][j] = MAX_VALUE+1;
+            B[i][j] = MAX_VALUE+2;
+            A_CPP[i][j] = MAX_VALUE+1;
+            B_CPP[i][j] = MAX_VALUE+2;
+        }
+    }
+
+    fprintf(file, "---Limit value test---\n");
+    if (VERBOSE) {
+        fprintf(file, "Input A\n");
+        print_matrix < hls_data_t > (A);
+        fprintf(file, "Input B\n");
+        print_matrix < hls_data_t > (B);
+    }
+    // Save and
+    int ret_old = ret;
+
+    // Test all transposes
+    for (int t = 0; t < 4; t++) {
+        CCS_DESIGN(matrixMultHLS)(A, B, C_hls, t);
+        matrixMult(A_CPP, B_CPP, C, t);
+
+        fprintf(file, "Transpose: %d\n", t);
+        compare_results(C_hls, C, 1);
+    }
 }
 
 CCS_MAIN(int argc, char * argv[]) // The Catapult testbench should always be invoked with this macro
@@ -245,6 +313,8 @@ CCS_MAIN(int argc, char * argv[]) // The Catapult testbench should always be inv
     test_min();
     fprintf(file, "\n");
     test_max();
+    fprintf(file, "\n");
+    test_limit();
     // TODO:
     // -Print the results of the tests to the "matrix_mult_output.txt" file. Make the file readable and informative!
     // -Close the output file at the end

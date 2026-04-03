@@ -1,3 +1,21 @@
+/* COMP.CE.350 Parallelization Excercise 2021
+   Copyright (c) 2016 Matias Koskela matias.koskela@tut.fi
+                      Heikki Kultala heikki.kultala@tut.fi
+                      Topi Leppanen  topi.leppanen@tuni.fi
+
+VERSION 1.1 - updated to not have stuck satellites so easily
+VERSION 1.2 - updated to not have stuck satellites hopefully at all.
+VERSION 19.0 - make all satellites affect the color with weighted average.
+               add physic correctness check.
+VERSION 20.0 - relax physic correctness check
+*/
+
+// Modified by
+// Kaakkolammi Henrik
+// H275961
+// henrik.kaakkolammi@tuni.fi
+
+
 #ifdef _WIN32
 #include <windows.h>
 #endif
@@ -47,7 +65,7 @@ unsigned int frameNumber = 0;
 unsigned int seed = 0;
 
 // Stores 2D data like the coordinates
-typedef struct
+typedef struct __attribute__ ((packed)) _floatvector
 {
 	float x;
 	float y;
@@ -61,7 +79,7 @@ typedef struct
 } doublevector;
 
 // Stores rendered colors. Each float may vary from 0.0f ... 1.0f
-typedef struct
+typedef struct __attribute__ ((packed)) _color
 {
 	float red;
 	float green;
@@ -69,7 +87,7 @@ typedef struct
 } color;
 
 // Stores the satellite data, which fly around black hole in the space
-typedef struct
+typedef struct __attribute__ ((packed)) _satellite
 {
 	color identifier;
 	floatvector position;
@@ -97,12 +115,11 @@ cl_context context;
 cl_platform_id* platforms;
 cl_device_id* devices;
 // Dta buffers
-cl_mem bufPixels;
-cl_mem bufSatellites;
+cl_mem bufPixels, bufSatellites;
 // Source code
 char* programSource;
 // Work sizes
-#define WORK_GROUP_SIZE 64
+#define WORK_GROUP_SIZE 1
 size_t globalWorkSize;
 size_t workGroupSize;
 
@@ -228,14 +245,13 @@ void init()
 		&status);
 	chk(status, "clCreateCommandQueueWithProperties"); 
 
+
 	///// BUFFERS /////
 	// Buffer for pixels
-	size_t pixelbufsize = sizeof(color)*SIZE;
-	bufPixels = clCreateBuffer(context, CL_MEM_WRITE_ONLY, pixelbufsize,                       
+	bufPixels = clCreateBuffer(context, CL_MEM_WRITE_ONLY, sizeof(pixels),                       
 	   NULL, &status);
 	// Buffer for satellite positions
-	size_t satellitebufsize = sizeof(satellite) * SATELLITE_COUNT;
-	bufSatellites = clCreateBuffer(context, CL_MEM_READ_ONLY, satellitebufsize,                       
+	bufSatellites = clCreateBuffer(context, CL_MEM_READ_ONLY, sizeof(satellites),                       
 	   NULL, &status);
 	chk(status, "clCreateBuffer"); 
 
@@ -344,27 +360,23 @@ void parallelPhysicsEngine()
 // Decides the color for each pixel.
 void parallelGraphicsEngine()
 {
-	// Print statuses only once
-	static int first = 1;
-
-	// All these are in blocking mode but the next physics frame could
-	// be calculated simultaneously.
 	// Write satellite positions to device
-	status = clEnqueueWriteBuffer(cmdQueue, bufSatellites, CL_TRUE, 
-		0, sizeof(satellite)*SATELLITE_COUNT, satellites, 0, NULL, NULL);
-	if(first) chk(status, "clEnqueueWriteBuffer");
+	status = clEnqueueWriteBuffer(cmdQueue, bufSatellites, CL_FALSE, 
+		0, sizeof(satellites), satellites, 0, NULL, NULL);
+	chk(status, "clEnqueueWriteBuffer");
 	
 	// Execute kernel
 	status = clEnqueueNDRangeKernel(cmdQueue, kernel, 1, NULL, 
-		&globalWorkSize, &workGroupSize, 0, NULL, NULL);
-	if(first) chk(status, "clEnqueueNDRangeKernel");
+		globalWorkSize, workGroupSize, 0, NULL, NULL);
+	chk(status, "clEnqueueNDRangeKernel");
+
+	// Wait for calculation to finish
+	clFinish(cmdQueue);
 
 	// Read pixel output buffer
 	status = clEnqueueReadBuffer(cmdQueue, bufPixels, CL_TRUE, 0, 
-		sizeof(color)*SIZE, pixels, 0, NULL, NULL);
-	if(first) chk(status, "clEnqueueReadBuffer");
-
-	first = 0;
+		sizeof(pixels), pixels, 0, NULL, NULL);
+	chk(status, "clEnqueueReadBuffer");
 }
 
 // ## You may add your own destrcution routines here ##

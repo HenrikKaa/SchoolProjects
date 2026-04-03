@@ -11,7 +11,7 @@ transpose = 3: Transpose A and B before multiplication
 #ifndef _matrix_mult
 #define _BITS_FLOATN_H 0
 #define _matrix_mult
-#include<ac_int.h>
+#include "ac_int.h"
 
 // Matrix size NxN
 const int N = 8;

@@ -1,3 +1,32 @@
+/* COMP.CE.350 Parallelization Excercise 2021
+   Copyright (c) 2016 Matias Koskela matias.koskela@tut.fi
+                      Heikki Kultala heikki.kultala@tut.fi
+                      Topi Leppanen  topi.leppanen@tuni.fi
+
+VERSION 1.1 - updated to not have stuck satellites so easily
+VERSION 1.2 - updated to not have stuck satellites hopefully at all.
+VERSION 19.0 - make all satellites affect the color with weighted average.
+               add physic correctness check.
+VERSION 20.0 - relax physic correctness check
+*/
+
+// Modified by
+// Kaakkolammi Henrik
+// H275961
+// henrik.kaakkolammi@tuni.fi
+
+// Example compilation on linux
+// no optimization:   gcc -o parallel parallel.c -std=c99 -lglut -lGL -lm
+// most optimizations: gcc -o parallel parallel.c -std=c99 -lglut -lGL -lm -O2
+// +vectorization +vectorize-infos: gcc -o parallel parallel.c -std=c99 -lglut -lGL -lm -O2 -ftree-vectorize -fopt-info-vec
+// +math relaxation:  gcc -o parallel parallel.c -std=c99 -lglut -lGL -lm -O2 -ftree-vectorize -fopt-info-vec -ffast-math
+// prev and OpenMP:   gcc -o parallel parallel.c -std=c99 -lglut -lGL -lm -O2 -ftree-vectorize -fopt-info-vec -ffast-math -fopenmp
+// prev and OpenCL:   gcc -o parallel parallel.c -std=c99 -lglut -lGL -lm -O2 -ftree-vectorize -fopt-info-vec -ffast-math -fopenmp -lOpenCL
+
+// Example compilation on macos X
+// no optimization:   gcc -o parallel parallel.c -std=c99 -framework GLUT -framework OpenGL
+// most optimization: gcc -o parallel parallel.c -std=c99 -framework GLUT -framework OpenGL -O3
+
 #ifdef _WIN32
 #include <windows.h>
 #endif
