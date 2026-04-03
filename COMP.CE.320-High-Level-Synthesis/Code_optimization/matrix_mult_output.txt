@@ -1,0 +1,405 @@
+WIDTH: 6
+RESULT_WIDTH: 14
+---Control test---
+Transpose: 0
+Test passed
+Transpose: 1
+Test passed
+Transpose: 2
+Test passed
+Transpose: 3
+Test passed
+
+---Random test---
+Transpose: 0
+Test passed
+Transpose: 1
+Test passed
+Transpose: 2
+Test passed
+Transpose: 3
+Test passed
+
+---Identity test---
+Transpose: 0
+Test passed
+Transpose: 1
+Test passed
+Transpose: 2
+Test passed
+Transpose: 3
+Test passed
+
+---Min value test---
+Transpose: 0
+Difference in index [0][0]
+Difference in index [0][1]
+Difference in index [0][2]
+Difference in index [0][3]
+Difference in index [0][4]
+Difference in index [0][5]
+Difference in index [0][6]
+Difference in index [0][7]
+Difference in index [1][0]
+Difference in index [1][1]
+Difference in index [1][2]
+Difference in index [1][3]
+Difference in index [1][4]
+Difference in index [1][5]
+Difference in index [1][6]
+Difference in index [1][7]
+Difference in index [2][0]
+Difference in index [2][1]
+Difference in index [2][2]
+Difference in index [2][3]
+Difference in index [2][4]
+Difference in index [2][5]
+Difference in index [2][6]
+Difference in index [2][7]
+Difference in index [3][0]
+Difference in index [3][1]
+Difference in index [3][2]
+Difference in index [3][3]
+Difference in index [3][4]
+Difference in index [3][5]
+Difference in index [3][6]
+Difference in index [3][7]
+Difference in index [4][0]
+Difference in index [4][1]
+Difference in index [4][2]
+Difference in index [4][3]
+Difference in index [4][4]
+Difference in index [4][5]
+Difference in index [4][6]
+Difference in index [4][7]
+Difference in index [5][0]
+Difference in index [5][1]
+Difference in index [5][2]
+Difference in index [5][3]
+Difference in index [5][4]
+Difference in index [5][5]
+Difference in index [5][6]
+Difference in index [5][7]
+Difference in index [6][0]
+Difference in index [6][1]
+Difference in index [6][2]
+Difference in index [6][3]
+Difference in index [6][4]
+Difference in index [6][5]
+Difference in index [6][6]
+Difference in index [6][7]
+Difference in index [7][0]
+Difference in index [7][1]
+Difference in index [7][2]
+Difference in index [7][3]
+Difference in index [7][4]
+Difference in index [7][5]
+Difference in index [7][6]
+Difference in index [7][7]
+
+HLS result
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+
+Reference result
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+
+----------------------------------------------------------------
+Transpose: 1
+Difference in index [0][0]
+Difference in index [0][1]
+Difference in index [0][2]
+Difference in index [0][3]
+Difference in index [0][4]
+Difference in index [0][5]
+Difference in index [0][6]
+Difference in index [0][7]
+Difference in index [1][0]
+Difference in index [1][1]
+Difference in index [1][2]
+Difference in index [1][3]
+Difference in index [1][4]
+Difference in index [1][5]
+Difference in index [1][6]
+Difference in index [1][7]
+Difference in index [2][0]
+Difference in index [2][1]
+Difference in index [2][2]
+Difference in index [2][3]
+Difference in index [2][4]
+Difference in index [2][5]
+Difference in index [2][6]
+Difference in index [2][7]
+Difference in index [3][0]
+Difference in index [3][1]
+Difference in index [3][2]
+Difference in index [3][3]
+Difference in index [3][4]
+Difference in index [3][5]
+Difference in index [3][6]
+Difference in index [3][7]
+Difference in index [4][0]
+Difference in index [4][1]
+Difference in index [4][2]
+Difference in index [4][3]
+Difference in index [4][4]
+Difference in index [4][5]
+Difference in index [4][6]
+Difference in index [4][7]
+Difference in index [5][0]
+Difference in index [5][1]
+Difference in index [5][2]
+Difference in index [5][3]
+Difference in index [5][4]
+Difference in index [5][5]
+Difference in index [5][6]
+Difference in index [5][7]
+Difference in index [6][0]
+Difference in index [6][1]
+Difference in index [6][2]
+Difference in index [6][3]
+Difference in index [6][4]
+Difference in index [6][5]
+Difference in index [6][6]
+Difference in index [6][7]
+Difference in index [7][0]
+Difference in index [7][1]
+Difference in index [7][2]
+Difference in index [7][3]
+Difference in index [7][4]
+Difference in index [7][5]
+Difference in index [7][6]
+Difference in index [7][7]
+
+HLS result
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+
+Reference result
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+
+----------------------------------------------------------------
+Transpose: 2
+Difference in index [0][0]
+Difference in index [0][1]
+Difference in index [0][2]
+Difference in index [0][3]
+Difference in index [0][4]
+Difference in index [0][5]
+Difference in index [0][6]
+Difference in index [0][7]
+Difference in index [1][0]
+Difference in index [1][1]
+Difference in index [1][2]
+Difference in index [1][3]
+Difference in index [1][4]
+Difference in index [1][5]
+Difference in index [1][6]
+Difference in index [1][7]
+Difference in index [2][0]
+Difference in index [2][1]
+Difference in index [2][2]
+Difference in index [2][3]
+Difference in index [2][4]
+Difference in index [2][5]
+Difference in index [2][6]
+Difference in index [2][7]
+Difference in index [3][0]
+Difference in index [3][1]
+Difference in index [3][2]
+Difference in index [3][3]
+Difference in index [3][4]
+Difference in index [3][5]
+Difference in index [3][6]
+Difference in index [3][7]
+Difference in index [4][0]
+Difference in index [4][1]
+Difference in index [4][2]
+Difference in index [4][3]
+Difference in index [4][4]
+Difference in index [4][5]
+Difference in index [4][6]
+Difference in index [4][7]
+Difference in index [5][0]
+Difference in index [5][1]
+Difference in index [5][2]
+Difference in index [5][3]
+Difference in index [5][4]
+Difference in index [5][5]
+Difference in index [5][6]
+Difference in index [5][7]
+Difference in index [6][0]
+Difference in index [6][1]
+Difference in index [6][2]
+Difference in index [6][3]
+Difference in index [6][4]
+Difference in index [6][5]
+Difference in index [6][6]
+Difference in index [6][7]
+Difference in index [7][0]
+Difference in index [7][1]
+Difference in index [7][2]
+Difference in index [7][3]
+Difference in index [7][4]
+Difference in index [7][5]
+Difference in index [7][6]
+Difference in index [7][7]
+
+HLS result
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+
+Reference result
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+
+----------------------------------------------------------------
+Transpose: 3
+Difference in index [0][0]
+Difference in index [0][1]
+Difference in index [0][2]
+Difference in index [0][3]
+Difference in index [0][4]
+Difference in index [0][5]
+Difference in index [0][6]
+Difference in index [0][7]
+Difference in index [1][0]
+Difference in index [1][1]
+Difference in index [1][2]
+Difference in index [1][3]
+Difference in index [1][4]
+Difference in index [1][5]
+Difference in index [1][6]
+Difference in index [1][7]
+Difference in index [2][0]
+Difference in index [2][1]
+Difference in index [2][2]
+Difference in index [2][3]
+Difference in index [2][4]
+Difference in index [2][5]
+Difference in index [2][6]
+Difference in index [2][7]
+Difference in index [3][0]
+Difference in index [3][1]
+Difference in index [3][2]
+Difference in index [3][3]
+Difference in index [3][4]
+Difference in index [3][5]
+Difference in index [3][6]
+Difference in index [3][7]
+Difference in index [4][0]
+Difference in index [4][1]
+Difference in index [4][2]
+Difference in index [4][3]
+Difference in index [4][4]
+Difference in index [4][5]
+Difference in index [4][6]
+Difference in index [4][7]
+Difference in index [5][0]
+Difference in index [5][1]
+Difference in index [5][2]
+Difference in index [5][3]
+Difference in index [5][4]
+Difference in index [5][5]
+Difference in index [5][6]
+Difference in index [5][7]
+Difference in index [6][0]
+Difference in index [6][1]
+Difference in index [6][2]
+Difference in index [6][3]
+Difference in index [6][4]
+Difference in index [6][5]
+Difference in index [6][6]
+Difference in index [6][7]
+Difference in index [7][0]
+Difference in index [7][1]
+Difference in index [7][2]
+Difference in index [7][3]
+Difference in index [7][4]
+Difference in index [7][5]
+Difference in index [7][6]
+Difference in index [7][7]
+
+HLS result
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+-8192 -8192 -8192 -8192 -8192 -8192 -8192 -8192 
+
+Reference result
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+8192 8192 8192 8192 8192 8192 8192 8192 
+
+----------------------------------------------------------------
+
+---Max value test---
+Transpose: 0
+Test passed
+Transpose: 1
+Test passed
+Transpose: 2
+Test passed
+Transpose: 3
+Test passed
+
+---Limit value test---
+Transpose: 0
+Difference in index [0][0]
+Test passed
+Transpose: 1
+Difference in index [0][0]
+Test passed
+Transpose: 2
+Difference in index [0][0]
+Test passed
+Transpose: 3
+Difference in index [0][0]
+Test passed

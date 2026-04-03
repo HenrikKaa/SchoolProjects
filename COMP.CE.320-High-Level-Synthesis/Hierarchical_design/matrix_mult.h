@@ -1,0 +1,53 @@
+/*
+Multiplies two NxN matrices A and B of type int and puts the product in matrix C.
+Allows transposition of A and/or B before multiplication.
+
+transpose = 0: Use A and B as is
+transpose = 1: Transpose A before multiplication
+transpose = 2: Transpose B before multiplication
+transpose = 3: Transpose A and B before multiplication
+*/
+
+#ifndef _matrix_mult
+#define _matrix_mult
+#define _BITS_FLOATN_H 0
+#include<ac_int.h>
+#include<ac_channel.h>
+
+// Matrix size NxN
+const int N = 8;
+
+typedef int data_t;
+typedef int result_t;
+
+/* Range is the maximum value in the matrices.
+ WIDTH is the number of bits required for max value plus a sign bit.
+ RESULT_WIDTH comprimises of: 2*RANGE bits because two M bit values
+   multiplied together need 2M bits (excluding sign bit).
+ 1 extra bit for signed
+ extra N bit because every addition can add maximum of 1 bit to the sum.
+ */
+const int MIN_VALUE = -32;
+const int MAX_VALUE = 31;
+const int WIDTH = ac::nbits<MAX_VALUE>::val + 1;
+const int RESULT_WIDTH = 2*WIDTH + ac::log2_ceil<N>::val;
+typedef ac_int<WIDTH, true> hls_data_t; 
+typedef ac_int<RESULT_WIDTH, true> hls_result_t;
+
+template<typename T, int N>
+struct chanStruct
+{
+	T data[N][N];
+};
+
+// Golden reference implementation
+void matrixMult(data_t A[N][N], data_t B[N][N], result_t C[N][N], int transpose);
+
+// HLS implementation
+void matrixMultHLS(
+    ac_channel<chanStruct<hls_data_t, N> > &A,
+    ac_channel<chanStruct<hls_data_t, N> > &B,
+    ac_channel<chanStruct<hls_result_t, N> > &C,
+    bool A_trans, bool B_trans);
+
+#endif
