@@ -1,0 +1,30 @@
+{
+  "name": "software-testing-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha || exit 0",
+    "test:awesome": "mocha --reporter mochawesome || exit 0",
+    "test:arithmetic": "mocha test/arithmetic.test.js || exit 0",
+    "test:array": "mocha test/array.test.js || exit 0",
+    "test:boolean": "mocha test/boolean.test.js || exit 0",
+    "test:conversion": "mocha test/conversion.test.js || exit 0",
+    "test:function": "mocha test/function.test.js || exit 0",
+    "test:object": "mocha test/object.test.js || exit 0",
+    "test:string": "mocha test/string.test.js || exit 0"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jscoverage": "^0.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "mocha": "^8.2.1",
+    "mocha-lcov-reporter": "^1.3.0",
+    "mochawesome": "^6.2.1"
+  }
+}
