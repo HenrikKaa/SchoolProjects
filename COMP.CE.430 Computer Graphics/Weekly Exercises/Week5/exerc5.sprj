@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<project version="2">
+	<pipeline>
+		<pass name="Simple" type="shader" active="true" patchverts="1">
+			<shader type="vs" path="shaders\exerc5_SimpleVS.glsl" entry="main" />
+			<shader type="ps" path="shaders\exerc5_SimplePS.glsl" entry="main" />
+			<inputlayout>
+				<item value="Position" semantic="POSITION" />
+				<item value="Normal" semantic="NORMAL" />
+				<item value="Texcoord" semantic="TEXCOORD0" />
+				<item value="Color" semantic="TEXCOORD0" />
+			</inputlayout>
+			<rendertexture />
+			<items>
+				<item name="Skybox" type="geometry">
+					<type>Cube</type>
+					<width>1</width>
+					<height>1</height>
+					<depth>1</depth>
+					<scaleX>-50</scaleX>
+					<scaleY>-50</scaleY>
+					<scaleZ>-50</scaleZ>
+					<y>0.300766706</y>
+					<topology>TriangleList</topology>
+				</item>
+				<item name="Terrain" type="model">
+					<filepath>shaders\models\terrain.glb</filepath>
+					<grouponly>false</grouponly>
+					<y>3.83638811</y>
+				</item>
+			</items>
+			<itemvalues />
+			<variables>
+				<variable type="float4x4" name="matVP" system="ViewProjection" />
+				<variable type="float4x4" name="matGeo" system="GeometryTransform" />
+				<variable type="float3" name="cameraPos" system="CameraPosition3" />
+				<variable type="float" name="uTime" system="Time" />
+				<variable type="float2" name="viewPortSize" system="ViewportSize" />
+			</variables>
+			<macros />
+		</pass>
+	</pipeline>
+	<objects />
+	<cameras />
+	<settings>
+		<entry type="property" name="Simple" item="pipe" />
+		<entry type="file" name="Simple" shader="vs" />
+		<entry type="file" name="Simple" shader="ps" />
+		<entry type="camera" fp="false">
+			<distance>27</distance>
+			<pitch>40</pitch>
+			<yaw>155</yaw>
+			<roll>360</roll>
+		</entry>
+		<entry type="clearcolor" r="0" g="0" b="0" a="0" />
+		<entry type="usealpha" val="false" />
+	</settings>
+	<plugindata />
+</project>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<project version="2">
+	<pipeline>
+		<pass name="houses" type="shader" active="true" patchverts="1">
+			<shader type="vs" path="shaders\Week4_housesVS.glsl" entry="main" />
+			<shader type="ps" path="shaders\Week4_housesPS.glsl" entry="main" />
+			<inputlayout>
+				<item value="Position" semantic="POSITION" />
+				<item value="Normal" semantic="NORMAL" />
+				<item value="Texcoord" semantic="TEXCOORD0" />
+				<item value="Color" semantic="TEXCOORD0" />
+			</inputlayout>
+			<rendertexture />
+			<items>
+				<item name="mhouse" type="model">
+					<filepath>shaders\models\house.glb</filepath>
+					<grouponly>false</grouponly>
+					<instanced>true</instanced>
+					<instancecount>20</instancecount>
+				</item>
+			</items>
+			<itemvalues />
+			<variables>
+				<variable type="float4x4" name="matVP" system="ViewProjection" />
+				<variable type="float4x4" name="matGeo" system="GeometryTransform" />
+				<variable type="float" name="uTime" system="Time" />
+				<variable type="float3" name="cameraPos" system="CameraPosition3" />
+				<variable type="float2" name="viewPortSize" system="ViewportSize" />
+			</variables>
+			<macros />
+		</pass>
+		<pass name="planet" type="shader" active="true" patchverts="1">
+			<shader type="vs" path="shaders\Week4_planetVS.glsl" entry="main" />
+			<shader type="ps" path="shaders\Week4_planetPS.glsl" entry="main" />
+			<inputlayout>
+				<item value="Position" semantic="POSITION" />
+				<item value="Normal" semantic="NORMAL" />
+				<item value="Texcoord" semantic="TEXCOORD0" />
+			</inputlayout>
+			<rendertexture />
+			<items>
+				<item name="sphere" type="geometry">
+					<type>Sphere</type>
+					<width>1</width>
+					<height>1</height>
+					<depth>1</depth>
+					<topology>TriangleList</topology>
+				</item>
+			</items>
+			<itemvalues />
+			<variables>
+				<variable type="float4x4" name="viewProj" system="ViewProjection" />
+				<variable type="float" name="uTime" system="Time" />
+				<variable type="float2" name="uViewPortSize" system="ViewportSize" />
+			</variables>
+			<macros />
+		</pass>
+	</pipeline>
+	<objects />
+	<cameras />
+	<settings>
+		<entry type="camera" fp="false">
+			<distance>50</distance>
+			<pitch>29</pitch>
+			<yaw>232</yaw>
+			<roll>360</roll>
+		</entry>
+		<entry type="clearcolor" r="0" g="0" b="0" a="0" />
+		<entry type="usealpha" val="false" />
+	</settings>
+	<plugindata />
+</project>
